@@ -24,11 +24,50 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 </style>
 <body>
     
     <div class="scrollmenu">
-        <div class ="scrollmenu-centered">
+        
         <img src=" gg logo.png" alt="">
         <a href="#Recipes">Recipes</a>
         <a href="#Our Products">Our Products</a>
@@ -37,5 +76,18 @@ div.scrollmenu a:hover {
          </div> 
     </div>
 </div>
+<div class ="container text-align:center">
+   <img src="2017-05-17-08-50-06.webp" alt="" width="600px " height="600px" >
+</div>
+</div>
+
+<h2 style="text-align:left">Discover Recipes</h2>
+
+<input type="text" placeholder="Search..">
+
+<div class="row">
+  <div class="column">
+    <img src="2017-05-17-08-50-06.webp" alt="" width="450px" height="600px">
+  </div>
 </body>
 </html>
